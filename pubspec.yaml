@@ -1,0 +1,43 @@
+name: accountieons_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  get: ^4.6.5
+  path_provider: ^2.1.1
+  flutter_easyloading: ^3.0.5
+  hive: ^2.2.3
+  dio: ^5.3.2
+  intl: ^0.18.1
+  flutter_bounce: ^1.1.0
+  dropdown_button2: ^2.3.9
+  auto_size_text: ^3.0.0
+  pull_to_refresh: ^2.0.0
+  image_picker: ^1.0.4
+  animations: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
